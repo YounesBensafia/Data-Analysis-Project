@@ -12,9 +12,8 @@ def txt_to_csv(txt_file, csv_file):
         csv_writer = csv.writer(outfile)
         
         for line in infile:
-            row = line.strip().split()  # Split on any whitespace (handles multiple spaces)
+            row = line.strip().split() 
             csv_writer.writerow(row)
 
-# Example usage
 txt_to_csv('list_landmarks_celeba.txt', 'data.csv')
  
