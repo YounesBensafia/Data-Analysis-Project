@@ -49,7 +49,7 @@ sampled_data['angle_nose_mouth'] = sampled_data.apply(lambda row:
     angle(row['leftmouth_x'], row['leftmouth_y'], row['nose_x'], row['nose_y'], row['rightmouth_x'], row['rightmouth_y']), axis=1)
 
 # Afficher les premières lignes avec les nouvelles caractéristiques
-print(sampled_data.columns)
+sampled_data.to_csv('data.csv', index=True)
 
 
 
