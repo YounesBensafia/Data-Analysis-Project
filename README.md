@@ -41,12 +41,10 @@ This dataset contains facial feature coordinates and derived measurements from f
 
 
 ## Dependencies
-- Python 3.x
+- Python 3.11.9
 - NumPy
 - Pandas
-- Seaborn
 - Matplotlib
-- Scikit-learn
 
 This will:
 1. Load the facial features data
