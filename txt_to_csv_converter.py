@@ -15,5 +15,5 @@ def txt_to_csv(txt_file, csv_file):
             row = line.strip().split() 
             csv_writer.writerow(row)
 
-txt_to_csv('list_landmarks_celeba.txt', 'data.csv')
+txt_to_csv('list_landmarks_celeba.txt', 'data_to_csv.csv')
  
